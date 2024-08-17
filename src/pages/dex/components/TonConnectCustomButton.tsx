@@ -18,7 +18,7 @@ export const TonConnectCustomButton = ({
       size={isMobile ? "sm" : "lg"}
       type="button"
       onClick={() => {
-        tonConnectUI.openModal();
+       // tonConnectUI.openModal();
       }}
     >
       <i className="fa-solid fa-wallet me-2" /> {t("swap.connectWallet")}

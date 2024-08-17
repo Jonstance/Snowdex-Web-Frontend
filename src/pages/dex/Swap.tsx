@@ -399,13 +399,13 @@ export default function SwapPage() {
                   <span className="me-auto fw-500">
                     {t("swap.blockchainFee")}
                   </span>
-                  <span className="text-muted">0.08-0.3 TON</span>
+                  <span className="text-muted">0.08-0.3 ICE</span>
                 </ListGroup.Item>
                 <ListGroup.Item className="d-flex mb-2">
                   <span className="me-auto fw-500">{t("swap.dexFee")}</span>
                   <span className="text-muted">
                     {Coins.fromNano(simulateState.tonFeeUnits, 9).toString()}{" "}
-                    TON
+                    ICE
                   </span>
                 </ListGroup.Item>
                 <ListGroup.Item className="d-flex mb-2">

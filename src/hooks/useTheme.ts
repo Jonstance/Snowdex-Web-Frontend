@@ -16,12 +16,12 @@ export const useTheme = () => {
       colorsSet: {
         [THEME.DARK]: {
           connectButton: {
-            background: "#06f",
+            background: "#10a5d1",
           },
         },
         [THEME.LIGHT]: {
           connectButton: {
-            background: "#06f",
+            background: "#10a5d1",
           },
         },
       },
