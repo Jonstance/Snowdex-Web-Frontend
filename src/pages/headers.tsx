@@ -91,7 +91,19 @@ export function DefaultHeader() {
                       {t("navigation.liquidity.liquidity")}
                     </Link>
                   </Nav.Item>
-                
+                  <Nav.Item>
+                    <Link
+                      className={`nav-link text-nowrap ${
+                        location.pathname.slice(0, 10) === "/liquidity"
+                          ? "active-link"
+                          : ""
+                      }`}
+                      to="/"
+                      onClick={() => setExpanded(false)}
+                    >
+                      Launchpad (Coming Soon)
+                    </Link>
+                  </Nav.Item>
                  
                   
                   
