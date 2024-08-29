@@ -49,8 +49,8 @@ export default function SwapPage() {
     to = TEGRO_ADDRESS;
   }
 
-  const [fromAssetKey, setFromAssetKey] = useState(from || TON_ADDRESS);
-  const [toAssetKey, setToAssetKey] = useState(to || TEGRO_ADDRESS);
+  const [fromAssetKey, setFromAssetKey] = useState(from || 'ION_ADDRESS');
+  const [toAssetKey, setToAssetKey] = useState(to || "SNOW_ADDRESS");
 
   const [fromAmount, setFromAmount] = useState(0);
   const [toAmount, setToAmount] = useState(0);
@@ -129,8 +129,8 @@ export default function SwapPage() {
     from = fromAssetKey;
     to = toAssetKey;
     const url = new URL(window.location.toString());
-    url.searchParams.set("from", from || TON_ADDRESS);
-    url.searchParams.set("to", to || TEGRO_ADDRESS);
+    url.searchParams.set("from", from || "ION_ADDRESS");
+    url.searchParams.set("to", to || 'SNOW_ADDRESS');
     window.history.pushState({}, "", url);
   }, [fromAssetKey, toAssetKey]);
 
