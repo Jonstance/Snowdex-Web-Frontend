@@ -9,13 +9,15 @@ import { PrivacyPage } from "./pages/dex/Privacy";
 import { TermsPage } from "./pages/dex/Terms";
 
 import "./i18n/config";
+import Home from "./pages/home/home";
 
 const router = createBrowserRouter([
   {
     path: "/",
     Component: DefaultLayout,
     children: [
-      { index: true, element: <Navigate to="/swap" replace /> },
+      //{ index: true, element: <Navigate to="/" replace /> },
+      { path: "/", Component: Home},
       { path: "/swap", Component: SwapPage },
       { path: "/liquidity", Component: LiquidityPage },
       { path: "/liquidity/provide", Component: AddLiquidityPage },

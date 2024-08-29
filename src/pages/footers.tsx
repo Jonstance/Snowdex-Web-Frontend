@@ -1,7 +1,7 @@
 export function DefaultFooter() {
   return (
     <>
-      <footer className="footer bg-circle pt-0 pb-5">
+      <footer className="footer  pt-0 pb-5">
         <div className="container">
           <div className="text-center d-flex flex-column align-items-center mx-auto">
             <div className="soc-box d-flex align-items-center">

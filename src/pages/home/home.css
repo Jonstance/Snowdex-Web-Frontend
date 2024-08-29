@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+  }
+  
+  .landing-page {
+    text-align: center;
+    color: #fff;
+    background-color: #141a21;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .hero {
+    background-image: url('/public/static/assets/images/snow02.gif');
+    padding: 100px 0;
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    background-color: #10a5d1;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #015974;
+  }
+  
+  .features {
+    background-color: #0f3460;
+    padding: 80px 0;
+    border-radius: 25px;
+  }
+  
+  .features h2 {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+  }
+  
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+  
+  .feature h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .feature p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .cta {
+    background-color: #141a21;
+    padding: 80px 0;
+  }
+  
+  .cta h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  
+  
