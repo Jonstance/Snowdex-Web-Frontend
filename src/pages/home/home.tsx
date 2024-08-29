@@ -20,18 +20,22 @@ function Home() {
           <h2>Why Choose SnowDex?</h2>
           <div className="features-grid">
             <div className="feature">
-              <h3>Decentralized Trading</h3>
+            <i className="fa-solid fa-money-bill-trend-up fa-beat-fade"></i>
+                            <h3>Decentralized Trading</h3>
               <p>Experience true decentralization with no central authority controlling your assets.</p>
             </div>
             <div className="feature">
+            <i className="fa-solid fa-coins fa-fade"></i>
               <h3>Low Fees</h3>
               <p>Trade with minimal transaction fees, ensuring more value in your hands.</p>
             </div>
             <div className="feature">
+            <i className="fa-solid fa-tent-arrow-left-right fa-flip"></i>
               <h3>Fast Transactions</h3>
               <p>Enjoy lightning-fast transaction speeds on the ICE Open Network.</p>
             </div>
             <div className="feature">
+            <i className="fa-solid fa-shield fa-beat"></i>
               <h3>Secure Platform</h3>
               <p>State-of-the-art security ensures your assets are always safe.</p>
             </div>

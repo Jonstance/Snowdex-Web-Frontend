@@ -55,6 +55,10 @@ body {
     font-size: 2.5rem;
     margin-bottom: 50px;
   }
+
+  .features i {
+    font-size: xx-large;
+  }
   
   .features-grid {
     display: grid;

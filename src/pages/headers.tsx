@@ -98,37 +98,7 @@ export function DefaultHeader() {
                 </Nav>
 
                 <Nav className="d-block d-lg-flex align-items-center align-items-lg-center border-top-mobile order-3 ms-0 ms-lg-2">
-                  <Nav.Item className="me-0 me-lg-2">
-                    <Nav.Link
-                      className="btn btn-sm btn-link bg-transparent"
-                      href="javascript://"
-                      onClick={() => {
-                        dispatch(switchTheme());
-                      }}
-                    >
-                      <div className="dark-mode-icon w-100">
-                        <div className="d-flex align-items-center w-100">
-                          <span className="d-inline d-lg-none me-auto">
-                            {t("theme.dark")}
-                          </span>
-                          <i
-                            className="fa-solid fa-moon fs-18"
-                            style={{
-                              transform: "rotate(210deg)",
-                            }}
-                          />
-                        </div>
-                      </div>
-                      <div className="light-mode-icon w-100">
-                        <div className="d-flex align-items-center w-100">
-                          <span className="d-inline d-lg-none me-auto">
-                            {t("theme.light")}
-                          </span>
-                          <i className="fa-solid fa-sun-bright fs-18" />
-                        </div>
-                      </div>
-                    </Nav.Link>
-                  </Nav.Item>
+                  
 
                   <Nav.Item className="mx-2 mx-lg-0 mt-4 mt-lg-0 d-none d-lg-block">
                     <AuthButton />
