@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link, useLocation, useSearchParams } from "react-router-dom";
+
 import './home.css'
 
 function Home() {
@@ -10,7 +12,7 @@ function Home() {
         <div className="container">
           <h1 className="hero-title">Welcome to SnowDex</h1>
           <p className="hero-subtitle">Trade securely on the ICE Open Network</p>
-          <button className="cta-button">Swap</button>
+          <Link to="/swap" className="cta-button">Start Trading</Link>
         </div>
       </section>
 
@@ -48,7 +50,7 @@ function Home() {
         <div className="container">
           <h2>Join the Future of Trading</h2>
           <p>Start trading on SnowDex today and be part of the decentralized revolution.</p>
-          <button className="cta-button">Start Trading</button>
+          <Link to="/swap" className="cta-button">Start Trading</Link>
         </div>
       </section>
 </div>
